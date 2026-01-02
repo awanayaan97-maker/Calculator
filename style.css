@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #f2f4f7;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+.bgcontainer{
+    width: 320px;        
+    max-width: 95vw; 
+    height: 600px;
+    background-color: #ffffff;
+    border-radius: 30px;
+   
+}
+ input{
+    margin-top: 40px;
+    margin-left: 12px;
+    height: 90px;
+    width: 90%;
+    border-radius: 10px;
+    background-color:#ffffff;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    border: 1px solid rgb(21, 150, 236);
+} 
+
+.input-active {
+    font-size: 1.4rem;      
+    padding-left: 18px;     
+    text-align: left;     
+}
+
+
+
+.toggleon{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  background-color: #111827;
+  color: white;
+  
+}
+
+.ofbtn{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  color: rgb(21, 150, 236);
+}
+
+
+.rowbtn {
+  flex: 1;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid rgb(21, 150, 236);
+  color: black;
+  font-size: 1rem;
+} 
+
+.rowbtn0 {
+  flex: 2;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid rgb(21, 150, 236);
+  color: black;
+  font-size: 1rem;
+}
+
+.uniqebtn {
+  flex: 1;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid rgb(21, 150, 236);
+  color: black;
+  font-size: 0.85rem;
+}
+
+.btnsection2,
+.btnsection3,
+.btnsection4,
+.btnsection5 {
+  display: flex !important;
+  gap: 15px !important;
+  margin-top: 28px !important;
+  padding: 0 12px !important;
+}
+.btnsection1{
+
+  display: flex !important;
+  gap: 15px !important;
+  margin-top: 40px;
+  padding: 0 12px !important;
+
+}
