@@ -22,9 +22,7 @@ toggleOF.addEventListener("click",function(){
 
     toggleOn.classList.toggle("toggleon");
 
-    toggleOn.style.display = "block"
-
- 
+    toggleOn.style.display = ""
 
     bgContainer.style.backgroundColor = "#111827";
 
