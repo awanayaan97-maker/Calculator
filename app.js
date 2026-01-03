@@ -54,7 +54,7 @@ toggleOn.addEventListener("click", function(){
 
   toggleOn.style.display = "none";
    toggleOn.classList.toggle("toggleon");
-  toggleOF.style.display = "block";
+  toggleOF.style.display = "";
 
   bgContainer.style.backgroundColor = "#ffffff";
 
